@@ -1,0 +1,57 @@
+{
+  "name": "@enkryptcom/signer-polkadot",
+  "version": "0.0.2",
+  "description": "Polkadot blockchain signers",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean",
+    "lint": "prettier --write .",
+    "test": "ts-mocha -p tsconfig.json tests/**/*.test.ts"
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^17.8.1",
+    "@enkryptcom/utils": "workspace:^",
+    "@polkadot/util": "^12.6.2",
+    "@polkadot/util-crypto": "^12.6.2",
+    "@polkadot/wasm-crypto": "^7.3.2",
+    "assert": "^2.1.0",
+    "chai": "^4.4.1"
+  },
+  "devDependencies": {
+    "@enkryptcom/types": "workspace:^",
+    "@types/chai": "^4.3.12",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.24",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-module-resolver": "^1.5.0",
+    "mocha": "^10.3.0",
+    "prettier": "^2.8.8",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "tsup": "^6.7.0",
+    "typescript": "^4.9.5",
+    "typescript-eslint": "0.0.1-alpha.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enkryptcom/enKrypt/tree/main/packages/signers/polkadot"
+  },
+  "keywords": [],
+  "author": "kvhnuke",
+  "license": "MIT"
+}
