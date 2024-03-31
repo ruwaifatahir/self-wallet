@@ -3,7 +3,7 @@
     <div class="rate__overlay" @click="close()" />
     <div class="rate__wrap">
       <div class="rate__header">
-        <h2>Enjoying Enkrypt so far?</h2>
+        <h2>Enjoying Self Wallet so far?</h2>
         <a class="rate__close" @click="close()">
           <close-icon />
         </a>
@@ -39,22 +39,16 @@ const close = async () => {
 const goToFeedback = async () => {
   await rateState.resetPopupTimer();
 
-  openLink("https://www.enkrypt.com/?ref=enkrypt_help");
+  openLink("mailto:info@selfcrypto.io");
 };
 
 const rateLinks: Record<string, string> = {
-  [BROWSER_NAMES.chrome]:
-    "https://chrome.google.com/webstore/detail/enkrypt-ethereum-polkadot/kkpllkodjeloidieedojogacfhpaihoh",
-  [BROWSER_NAMES.firefox]:
-    "https://addons.mozilla.org/en-US/firefox/addon/enkrypt/reviews/",
-  [BROWSER_NAMES.opera]:
-    "https://addons.opera.com/en/extensions/details/enkrypt/",
-  [BROWSER_NAMES.edge]:
-    "https://microsoftedge.microsoft.com/addons/detail/enkrypt-ethereum-polkad/gfenajajnjjmmdojhdjmnngomkhlnfjl",
-  [BROWSER_NAMES.brave]:
-    "https://chrome.google.com/webstore/detail/enkrypt-ethereum-polkadot/kkpllkodjeloidieedojogacfhpaihoh",
-  [BROWSER_NAMES.safari]:
-    "https://apps.apple.com/ae/app/enkrypt-web3-wallet/id1640164309?mt=12",
+  [BROWSER_NAMES.chrome]: "mailto:info@selfcrypto.io",
+  [BROWSER_NAMES.firefox]: "mailto:info@selfcrypto.io",
+  [BROWSER_NAMES.opera]: "mailto:info@selfcrypto.io",
+  [BROWSER_NAMES.edge]: "mailto:info@selfcrypto.io",
+  [BROWSER_NAMES.brave]: "mailto:info@selfcrypto.io",
+  [BROWSER_NAMES.safari]: "mailto:info@selfcrypto.io",
 };
 
 const goToRate = async () => {

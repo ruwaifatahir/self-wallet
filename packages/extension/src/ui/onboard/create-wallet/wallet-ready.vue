@@ -6,21 +6,27 @@
     <div class="wallet-ready__social">
       <h4>Follow us</h4>
       <div class="wallet-ready__social-wrap">
-        <a href="https://github.com/myetherwallet" target="_blank">
+        <a
+          href="https://whitepaper.selfcrypto.io/self-whitepaper"
+          target="_blank"
+        >
           <github-icon />
         </a>
-        <a href="https://www.instagram.com/myetherwallet/" target="_blank">
+        <a href="https://t.me/SELFcryptoIO" target="_blank">
           <instagram-icon />
         </a>
-        <a href="https://www.reddit.com/r/MyEtherWallet/" target="_blank">
+        <a
+          href="https://www.reddit.com/r/SELFCryptoIO/?rdt=35088"
+          target="_blank"
+        >
           <reddit-icon />
         </a>
-        <a href="https://twitter.com/myetherwallet" target="_blank">
+        <a href="https://twitter.com/SelfCryptoIO" target="_blank">
           <twitter-icon />
         </a>
       </div>
     </div>
-
+    
     <base-button title="Finish" :click="finishAction" />
   </div>
 </template>

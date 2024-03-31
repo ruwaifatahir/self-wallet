@@ -13,11 +13,6 @@
 
     <div class="settings__block">
       <settings-button
-        title="Bug bounty program"
-        :is-link="true"
-        @click="bugAction"
-      />
-      <settings-button
         title="Privacy and terms"
         :is-link="true"
         @click="privacyAction"
@@ -36,7 +31,7 @@
 
     <div class="settings__copyright">
       <p>Version {{ version }} ({{ buildTime }})</p>
-      <p>© {{ new Date().getFullYear() }} by MyEtherWallet Inc.</p>
+      <p>© {{ new Date().getFullYear() }} by Self Wallet.</p>
     </div>
 
     <modal-sign
@@ -73,28 +68,16 @@ defineEmits<{
   (e: "action:about"): void;
 }>();
 
-const bugAction = () => {
-  window.open(
-    "https://hackerone.com/myetherwallet?type=team",
-    "_blank",
-    "noopener"
-  );
-};
-
 const privacyAction = () => {
   window.open(
-    "https://www.myetherwallet.com/privacy-policy",
+    "https://whitepaper.selfcrypto.io/self-whitepaper",
     "_blank",
     "noopener"
   );
 };
 
 const contactSupport = () => {
-  window.open(
-    "https://www.enkrypt.com/?ref=enkrypt_help",
-    "_blank",
-    "noopener"
-  );
+  window.open("mailto:info@selfcrypto.io", "_blank", "noopener");
 };
 
 const toggleSign = () => {

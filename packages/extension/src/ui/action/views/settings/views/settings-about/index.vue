@@ -30,19 +30,19 @@ import SettingsInnerHeader from "@action/views/settings/components/settings-inne
 import SettingsButton from "@action/views/settings/components/settings-button.vue";
 
 const siteAction = () => {
-  window.open("https://www.enkrypt.com/", "_blank", "noopener");
+  window.open("https://selfcrypto.io/", "_blank", "noopener");
 };
 
 const telegramAction = () => {
-  window.open("https://t.me/myetherwallet", "_blank", "noopener");
+  window.open("https://t.me/SELFcryptoIO", "_blank", "noopener");
 };
 
 const twitterAction = () => {
-  window.open("https://twitter.com/enkrypt", "_blank", "noopener");
+  window.open("https://twitter.com/SelfCryptoIO", "_blank", "noopener");
 };
 
 const discordAction = () => {
-  window.open("https://discord.com/invite/Gz8vBneyKe", "_blank", "noopener");
+  window.open("https://discord.com/invite/selfcrypto", "_blank", "noopener");
 };
 </script>
 

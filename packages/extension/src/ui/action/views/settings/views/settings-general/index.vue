@@ -15,8 +15,8 @@
     />
     <div class="settings__label">
       <p>
-        Pause Enkrypt interactions with Ethereum DApps if you are using other
-        web3 extensions
+        Pause Self Wallet interactions with Ethereum DApps if you are using
+        other web3 extensions
       </p>
     </div>
 
@@ -35,7 +35,7 @@
       @update:check="toggleUnisatEnable"
     />
     <div class="settings__label">
-      <p>Enable Enkrypt act like Unisat wallet for dapps</p>
+      <p>Enable Self Wallet act like Unisat wallet for dapps</p>
     </div>
 
     <!-- <base-select

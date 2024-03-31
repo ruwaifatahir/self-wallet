@@ -3,8 +3,8 @@
     <settings-inner-header v-bind="$attrs" :is-reset="true" />
     <div class="reset-wallet__wrap">
       <p class="reset-wallet__description">
-        Resetting your wallet will clear all information from Enkrypt and take
-        you back to create/recover wallet screen. You will be able to fully
+        Resetting your wallet will clear all information from Self Wallet and
+        take you back to create/recover wallet screen. You will be able to fully
         restore your wallet with your recovery phrase.
       </p>
 

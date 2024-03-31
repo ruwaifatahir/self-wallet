@@ -86,7 +86,7 @@ const resetAction = () => {
 };
 
 const supportAction = () => {
-  window.open("mailto:support@enkrypt.com", "_blank", "noopener");
+  window.open("mailto:info@selfcrypto.io", "_blank", "noopener");
 };
 
 const generalAction = () => {

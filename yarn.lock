@@ -13019,22 +13019,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enkrypt@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "enkrypt@workspace:."
-  dependencies:
-    "@commitlint/cli": ^17.8.1
-    "@commitlint/config-conventional": ^17.8.1
-    "@swc/core": ^1.4.4
-    concurrently: ^8.2.2
-    devmoji: ^2.3.0
-    husky: ^8.0.3
-    node-notifier: ^10.0.1
-    nodemon: ^3.1.0
-    ultra-runner: ^3.10.5
-  languageName: unknown
-  linkType: soft
-
 "entities@npm:^2.0.0":
   version: 2.2.0
   resolution: "entities@npm:2.2.0"
@@ -21533,6 +21517,22 @@ __metadata:
   checksum: d7e5fcc695a4804209d232a1b18624a5134be334d4e1114b0721f7a5e72bd73da483dcf41528c1af4f4f4892ad7cfd6a1e55c8ffb83f9c9fe723b738db609dbb
   languageName: node
   linkType: hard
+
+"self-crypto@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "self-crypto@workspace:."
+  dependencies:
+    "@commitlint/cli": ^17.8.1
+    "@commitlint/config-conventional": ^17.8.1
+    "@swc/core": ^1.4.4
+    concurrently: ^8.2.2
+    devmoji: ^2.3.0
+    husky: ^8.0.3
+    node-notifier: ^10.0.1
+    nodemon: ^3.1.0
+    ultra-runner: ^3.10.5
+  languageName: unknown
+  linkType: soft
 
 "selfsigned@npm:^2.0.1":
   version: 2.0.1

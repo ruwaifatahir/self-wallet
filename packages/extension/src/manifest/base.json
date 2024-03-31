@@ -3,7 +3,7 @@
   "homepage_url": "https://selfcrypto.io/",
   "version": "",
   "name": "SelfCrypto: Multichain Crypto Wallet",
-  "short_name": "Enkrypt",
+  "short_name": "Self",
   "permissions": [
     "storage",
     "unlimitedStorage",
@@ -43,9 +43,9 @@
   ],
   "description": "Everything in the blockchain made easy",
   "icons": {
-    "16": "assets/img/icons/icon16.png",
-    "32": "assets/img/icons/icon32.png",
-    "64": "assets/img/icons/icon64.png",
-    "192": "assets/img/icons/icon192.png"
+    "16": "assets/img/icons/self16.png",
+    "32": "assets/img/icons/self32.png",
+    "192": "assets/img/icons/self192.png",
+    "512": "assets/img/icons/self512.png"
   }
 }
